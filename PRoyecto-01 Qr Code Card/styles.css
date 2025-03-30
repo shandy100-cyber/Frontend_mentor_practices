@@ -1,0 +1,59 @@
+:root{
+    font-family: sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h4,h4{
+    text-wrap: balance;
+}
+
+p{
+    text-wrap: pretty;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    background-color: #f0d6d6;
+    height: 100dvh;
+}
+
+.card{
+    width: 350px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 36px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 0 16px #0003;
+    color: rgb(129, 0, 0);
+}
+
+.card__text-container{
+    max-width: 300px;
+}
+
+.card h2{
+    font-size: 1.2rem;
+}
+
+.card p{
+    font-size: .95rem;
+    margin: 10px 0;
+}
+
+.card__img-container{
+    height: 300px;
+    overflow: hidden;
+    border-radius: 20px;
+    background-image: url(https://mir-s3-cdn-cf.behance.net/projects/max_808/def80e132094721.Y3JvcCwxNDAwLDEwOTUsMCw1ODk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 10px 0;
+}
